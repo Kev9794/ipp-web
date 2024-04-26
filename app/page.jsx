@@ -2,9 +2,12 @@ import { MainNavbar } from "./components/navbar";
 import { Image } from "@nextui-org/react";
 import {
   FaHotTubPerson,
-  FaAccessibleIcon,
-  FaArrowRightToCity,
+  FaLinesLeaning,
+  FaGripLinesVertical,
+  FaRegCircle,
 } from "react-icons/fa6";
+import { TbShape3, TbShape } from "react-icons/tb";
+import { GiConcreteBag } from "react-icons/gi";
 
 export default function Home() {
   const imageName = [
@@ -24,82 +27,84 @@ export default function Home() {
     "mas-group",
     "golden-park",
     "aldiron-hero",
+    "nusaraya",
   ];
   const solutionCardData = [
     {
-      icon: <FaHotTubPerson className="text-black w-10 h-10" />,
-      title: "Test 1",
-      description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, nulla!",
+      icon: <FaGripLinesVertical className="text-black w-10 h-10" />,
+      title: "Pagar Panel Beton",
+      description: "Berfungsi untuk sebagai kontruksi pelindung/pembatas lahan",
     },
     {
-      icon: <FaAccessibleIcon className="text-black w-10 h-10" />,
-      title: "Test 2",
+      icon: <TbShape3 className="text-black w-10 h-10" />,
+      title: "U-Ditch dan Cover U-ditch",
       description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, nulla!",
+        "Saluran air beton bertulang yang memiliki bentuk menyerupai huruf 'U' ",
     },
     {
-      icon: <FaArrowRightToCity className="text-black w-10 h-10" />,
-      title: "Test 3",
+      icon: <TbShape className="text-black w-10 h-10" />,
+      title: "Box Culvert",
       description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, nulla!",
+        "Beton pracetak berbentuk kotak yang diproduksi dengan menggunakan cetakan besi berguna untuk saluran dalam tanah atau gorong-gorong",
     },
     {
-      icon: <FaHotTubPerson className="text-black w-10 h-10" />,
-      title: "Test 4",
+      icon: <FaLinesLeaning className="text-black w-10 h-10" />,
+      title: "Kanstin",
       description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, nulla!",
+        "Beton pracetak yang digunakan sebagai pembatas jalan/trotoar, bahu jalan, dan lain sebagainya",
     },
     {
-      icon: <FaAccessibleIcon className="text-black w-10 h-10" />,
-      title: "Test 5",
+      icon: <FaRegCircle className="text-black w-10 h-10" />,
+      title: "Buis Beton",
       description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, nulla!",
+        "Bahan kontruksi beton pracetak yang digunakan sebagai saluran drainase, septic tank dan sumur resapan",
     },
     {
-      icon: <FaArrowRightToCity className="text-black w-10 h-10" />,
-      title: "Test 6",
+      icon: <GiConcreteBag className="text-black w-10 h-10" />,
+      title: "Paving Block",
       description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, nulla!",
+        "Produk kontruksi yang biasa digunakan untuk perkerasan jalan, halaman rumah, trotoar dan lainnya",
     },
   ];
   const imageRows = [
     imageName.slice(0, 5),
     imageName.slice(5, 11),
-    imageName.slice(11, 16),
+    imageName.slice(11, 17),
   ];
   const divStyle = {
     backgroundImage: "url(image/bg1.jpg)", // path to your image
     backgroundSize: "cover",
     backgroundPosition: "center",
     width: "100%",
-    height: "900px", // Adjust height as needed
+    height: "610px", // Adjust height as needed
   };
   return (
     <>
-      <MainNavbar />
-    <section id="hero-section">
-    <div className="flex w-full">
-        <div style={divStyle}>
-          <div className="flex items-center justify-between px-12 py-10">
-            <div className="w-1/2">
-              <p className="text-5xl font-thin ">
-                Kami berkomitmen untuk selalu meningkatkan produk kami,
-                <br /> dengan menjaga kualitas produk,
-                <br /> dan pengerjaan tepat waktu.
-              </p>
-              <p className="pt-10 font-extralight">
-                Kami menjual Pagar Beton dan Pagar BRC kualitas terbaik dan
-                kokoh.
-              </p>
-            </div>
-            <div>
-              <Image src="image/worker.png" width={650} radius="lg" />
+      <section id="hero-section">
+        <div className="flex w-full">
+          <div style={divStyle}>
+            <div className="flex items-center justify-between px-12 py-10">
+              <div className="w-1/2">
+                <p className="text-5xl font-thin ">
+                  WE PROVIDE
+                  <br /> THE BEST SERVICES,
+                  <br />
+                  BEST QUALITY <br />
+                  AND AFFORDABLE PRICES FOR YOU.
+                </p>
+                <p className="pt-10 font-extralight">
+                  Kami berkomitmen untuk selalu meningkatkan produk kami
+                  <br /> dengan menjaga kualitas produk dan pengerjaan tepat
+                  waktu.
+                </p>
+              </div>
+              <div>
+                <Image src="image/worker.png" width={650} radius="lg" />
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
       <section id="our-partner">
         <div className="flex flex-col items-center justify-center bg-slate-50 py-12 px-48">
           <p className="text-4xl font-extrabold text-black">
@@ -128,17 +133,17 @@ export default function Home() {
       <section id="our-solution">
         <div className="flex flex-col items-center justify-center bg-slate-200 py-12 px-48">
           <p className="text-4xl font-extrabold text-black">
-            Our <span className="text-red-600">Solution</span>
+            Our <span className="text-red-600">Services</span>
           </p>
           <p className="text-medium font-bold text-black pt-6">
-            We have various solutions for pagar beton
+            We have various solutions for your constructions
           </p>
           <a href="" className="text-medium font-bold text-red-600 pt-6">
-            Learn More →
+            See More →
           </a>
           <div className="grid grid-cols-3 grid-rows-2 gap-8 pt-6">
             {solutionCardData.map((item) => (
-              <div className="relative w-48 h-48 p-4 bg-white group" key={item}>
+              <div className="relative w-48 h-56 p-4 bg-white group" key={item}>
                 <div className="absolute top-0 left-0 w-full bg-red-600 h-1 group-hover:h-0 transition-all"></div>
                 {item.icon}
                 <p className="text-xl font-normal text-black pt-6">

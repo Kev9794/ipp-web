@@ -35,7 +35,7 @@ export const MainNavbar = () => {
   ];
 
   return (
-    <Navbar className="h-32" onMenuOpenChange={setIsMenuOpen}>
+    <Navbar className="h-28" onMenuOpenChange={setIsMenuOpen}>
       <NavbarBrand className="hidden sm:flex">
         <Image src="logo/companylogonavbar.png" height={40} width={100} />
         <p className="font-bold text-inherit">PT Irkon Panelindo Produk</p>
@@ -44,11 +44,6 @@ export const MainNavbar = () => {
         <NavbarItem isActive>
           <Link href="#" aria-current="page">
             Homepage
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link color="foreground" href="#">
-            Service
           </Link>
         </NavbarItem>
         <Dropdown className="bg-zinc-700">
@@ -60,18 +55,28 @@ export const MainNavbar = () => {
                 radius="sm"
                 variant="light"
               >
-                Projects
+                Services
               </Button>
             </DropdownTrigger>
           </NavbarItem>
           <DropdownMenu aria-label="ACME features" className="w-[340px]">
-            <DropdownItem key="all_project">All Projects</DropdownItem>
-            <DropdownItem key="usage_metrics">Pagar</DropdownItem>
-            <DropdownItem key="production_ready">Pagar</DropdownItem>
-            <DropdownItem key="99_uptime">Pagar</DropdownItem>
-            <DropdownItem key="supreme_support">Pagar</DropdownItem>
+            <DropdownItem key="all_project">All Services</DropdownItem>
+            <DropdownItem key="pagar_beton">Pagar Panel Beton</DropdownItem>
+            <DropdownItem key="u_ditch">U-Ditch</DropdownItem>
+            <DropdownItem key="box_culvert">Box Culvert</DropdownItem>
+            <DropdownItem key="kanstin">Kanstin</DropdownItem>
+            <DropdownItem key="buis_beton">Buis Beton</DropdownItem>
+            <DropdownItem key="">Paving Block</DropdownItem>
+            <DropdownItem key="">Pagar Kawat Berduri</DropdownItem>
+            <DropdownItem key="">Pagar BRC</DropdownItem>
           </DropdownMenu>
         </Dropdown>
+        <NavbarItem>
+          <Link color="foreground" href="#">
+            Projects
+          </Link>
+        </NavbarItem>
+
         <NavbarItem>
           <Link color="foreground" href="#">
             About Us
