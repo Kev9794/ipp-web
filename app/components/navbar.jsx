@@ -41,8 +41,8 @@ export const MainNavbar = () => {
         <p className="font-bold text-inherit">PT Irkon Panelindo Produk</p>
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-6" justify="center">
-        <NavbarItem isActive>
-          <Link href="#" aria-current="page">
+        <NavbarItem>
+          <Link href="/" color="foreground">
             Homepage
           </Link>
         </NavbarItem>
@@ -78,12 +78,12 @@ export const MainNavbar = () => {
         </NavbarItem>
 
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="/about-us">
             About Us
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="/contact-us">
             Contact Us
           </Link>
         </NavbarItem>
