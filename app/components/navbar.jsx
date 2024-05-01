@@ -66,9 +66,10 @@ export const MainNavbar = () => {
             <DropdownItem key="box_culvert">Box Culvert</DropdownItem>
             <DropdownItem key="kanstin">Kanstin</DropdownItem>
             <DropdownItem key="buis_beton">Buis Beton</DropdownItem>
-            <DropdownItem key="">Paving Block</DropdownItem>
-            <DropdownItem key="">Pagar Kawat Berduri</DropdownItem>
-            <DropdownItem key="">Pagar BRC</DropdownItem>
+            <DropdownItem key="pipa_rcp">Pipa RCP</DropdownItem>
+            <DropdownItem key="paving_block">Paving Block</DropdownItem>
+            <DropdownItem key="pagar_duri">Pagar Kawat Berduri</DropdownItem>
+            <DropdownItem key="pagar_brc">Pagar BRC</DropdownItem>
           </DropdownMenu>
         </Dropdown>
         <NavbarItem>

@@ -1,6 +1,12 @@
 import React from "react";
 import Link from "next/link";
-import { FaInstagram, FaFacebook, FaPhone } from "react-icons/fa";
+import {
+  FaInstagram,
+  FaFacebook,
+  FaPhone,
+  FaLinkedin,
+  FaTiktok,
+} from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
 import { FaBuilding } from "react-icons/fa6";
 
@@ -68,6 +74,20 @@ export const MainFooter = () => {
                   }
                 >
                   <FaFacebook />
+                </Link>
+                <Link
+                  href={
+                    "https://www.linkedin.com/company/pt-irkon-panelindo-produk/"
+                  }
+                >
+                  <FaLinkedin />
+                </Link>
+                <Link
+                  href={
+                    "https://www.tiktok.com/@irkonpanelindoproduk?_t=8lvfq15MORe&_r=1"
+                  }
+                >
+                  <FaTiktok />
                 </Link>
               </div>
             </div>

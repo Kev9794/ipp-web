@@ -1,9 +1,15 @@
 "use client";
 import { ImOffice } from "react-icons/im";
-import { FaFax, FaFacebook } from "react-icons/fa";
+import {
+  FaFax,
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  FaTiktok,
+} from "react-icons/fa";
 import { IoMdMailOpen } from "react-icons/io";
 import { IoCall } from "react-icons/io5";
-import { RiInstagramFill } from "react-icons/ri";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -46,12 +52,40 @@ export default function Home() {
               <p className="text-lg">irkonpanelindo@yahoo.com</p>
             </div>
             <div className="flex items-center gap-4">
-              <RiInstagramFill className="text-3xl" />
-              <p className="text-lg">irkon panelindo produk</p>
+              <FaInstagram className="text-3xl" />
+              <Link href={"https://www.instagram.com/irkon_panelindo_produk/"}>
+                <p className="text-lg">irkon panelindo produk</p>
+              </Link>
             </div>
             <div className="flex items-center gap-4">
               <FaFacebook className="text-3xl" />
-              <p className="text-lg">irkon_panelindo_produk</p>
+              <Link
+                href={
+                  "https://www.facebook.com/irkon.panelindoproduk?locale=id_ID"
+                }
+              >
+                <p className="text-lg">irkon_panelindo_produk</p>
+              </Link>
+            </div>
+            <div className="flex items-center gap-4">
+              <FaLinkedin className="text-3xl" />
+              <Link
+                href={
+                  "https://www.linkedin.com/company/pt-irkon-panelindo-produk/"
+                }
+              >
+                <p className="text-lg">Irkon Panelindo Produk</p>
+              </Link>
+            </div>
+            <div className="flex items-center gap-4">
+              <FaTiktok className="text-3xl" />
+              <Link
+                href={
+                  "https://www.tiktok.com/@irkonpanelindoproduk?_t=8lvfq15MORe&_r=1"
+                }
+              >
+                <p className="text-lg">irkonpanelindoproduk</p>
+              </Link>
             </div>
           </div>
           <div className="w-1/2 flex flex-col gap-y-4">
