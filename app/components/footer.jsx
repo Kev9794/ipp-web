@@ -17,7 +17,7 @@ export const MainFooter = () => {
         <div className="flex flex-col gap-12 items-center lg:items-start md:flex-row w-full ">
           <div className="md:flex-[1_1_100px]">
             <img
-              src={"logo/companylogo.png"}
+              src={"/logo/companylogo.png"}
               alt="logo"
               className="w-[165px]"
               loading="lazy"

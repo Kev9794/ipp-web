@@ -37,7 +37,7 @@ export const MainNavbar = () => {
   return (
     <Navbar className="h-28" onMenuOpenChange={setIsMenuOpen}>
       <NavbarBrand className="hidden sm:flex">
-        <Image src="logo/companylogonavbar.png" height={40} width={100} />
+        <Image src="/logo/companylogonavbar.png" height={40} width={100} />
         <p className="font-bold text-inherit">PT Irkon Panelindo Produk</p>
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-6" justify="center">
@@ -60,16 +60,36 @@ export const MainNavbar = () => {
             </DropdownTrigger>
           </NavbarItem>
           <DropdownMenu aria-label="ACME features" className="w-[340px]">
-            <DropdownItem key="all_project">All Services</DropdownItem>
-            <DropdownItem key="pagar_beton">Pagar Panel Beton</DropdownItem>
-            <DropdownItem key="u_ditch">U-Ditch</DropdownItem>
-            <DropdownItem key="box_culvert">Box Culvert</DropdownItem>
-            <DropdownItem key="kanstin">Kanstin</DropdownItem>
-            <DropdownItem key="buis_beton">Buis Beton</DropdownItem>
-            <DropdownItem key="pipa_rcp">Pipa RCP</DropdownItem>
-            <DropdownItem key="paving_block">Paving Block</DropdownItem>
-            <DropdownItem key="pagar_duri">Pagar Kawat Berduri</DropdownItem>
-            <DropdownItem key="pagar_brc">Pagar BRC</DropdownItem>
+            <DropdownItem key="all_project" href="/services">
+              All Services
+            </DropdownItem>
+            <DropdownItem key="pagar_beton" href="/services/pagar-beton">
+              Pagar Panel Beton
+            </DropdownItem>
+            <DropdownItem key="u_ditch" href="/services/u-ditch">
+              U-Ditch
+            </DropdownItem>
+            <DropdownItem key="box_culvert" href="/services/box-culvert">
+              Box Culvert
+            </DropdownItem>
+            <DropdownItem key="kanstin" href="/services/kanstin">
+              Kanstin
+            </DropdownItem>
+            <DropdownItem key="buis_beton" href="/services/buis-beton">
+              Buis Beton
+            </DropdownItem>
+            <DropdownItem key="pipa_rcp" href="/services/pipa-rcp">
+              Pipa RCP
+            </DropdownItem>
+            <DropdownItem key="paving_block" href="/services/paving-block">
+              Paving Block
+            </DropdownItem>
+            <DropdownItem key="pagar_duri" href="/services/pagar-kawat">
+              Pagar Kawat Berduri
+            </DropdownItem>
+            <DropdownItem key="pagar_brc" href="/services/pagar-brc">
+              Pagar BRC
+            </DropdownItem>
           </DropdownMenu>
         </Dropdown>
         <NavbarItem>
