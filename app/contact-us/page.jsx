@@ -11,7 +11,7 @@ import { IoMdMailOpen } from "react-icons/io";
 import { IoCall } from "react-icons/io5";
 import Link from "next/link";
 
-export default function Home() {
+export default function ContactUs() {
   return (
     <>
       <div className="flex flex-col p-14 bg-zinc-800">
