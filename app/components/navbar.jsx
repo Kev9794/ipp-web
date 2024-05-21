@@ -37,7 +37,7 @@ export const MainNavbar = () => {
   return (
     <Navbar className="h-28" onMenuOpenChange={setIsMenuOpen}>
       <NavbarBrand className="hidden sm:flex">
-        <Image src="logo/companylogonavbar.png" height={40} width={100} />
+        <Image src="/logo/companylogonavbar.png" height={40} width={100} />
         <p className="font-bold text-inherit">PT Irkon Panelindo Produk</p>
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-6" justify="center">
@@ -63,7 +63,9 @@ export const MainNavbar = () => {
             <DropdownItem key="all_project">All Services</DropdownItem>
             <DropdownItem key="pagar_beton">Pagar Panel Beton</DropdownItem>
             <DropdownItem key="u_ditch">U-Ditch</DropdownItem>
-            <DropdownItem key="box_culvert">Box Culvert</DropdownItem>
+            <DropdownItem key="box_culvert" href="/services/box-culvert">
+              Box Culvert
+            </DropdownItem>
             <DropdownItem key="kanstin">Kanstin</DropdownItem>
             <DropdownItem key="buis_beton">Buis Beton</DropdownItem>
             <DropdownItem key="pipa_rcp">Pipa RCP</DropdownItem>
