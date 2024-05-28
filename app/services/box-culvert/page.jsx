@@ -5,13 +5,22 @@ import { FaAngleLeft, FaAngleRight } from "react-icons/fa6";
 const BoxCulvert = () => {
   const slides = [
     {
-      url: "/image/about-1.jpeg",
+      url: "/image/product/box-culvert-1.jpg",
     },
     {
-      url: "/image/about-2.jpeg",
+      url: "/image/product/box-culvert-2.jpg",
     },
     {
-      url: "/image/about-3.jpeg",
+      url: "/image/product/box-culvert-3.jpg",
+    },
+    {
+      url: "/image/product/box-culvert-4.jpg",
+    },
+    {
+      url: "/image/product/box-culvert-5.jpg",
+    },
+    {
+      url: "/image/product/box-culvert-6.jpg",
     },
   ];
 
@@ -47,11 +56,16 @@ const BoxCulvert = () => {
     return slides.map((slide, slideIndex) => (
       <div
         key={slideIndex}
-        className={`mx-auto ${
+        className={`mx-auto aspect-w-[4] aspect-h-[3]  ${
           slideIndex === currentIndex ? "block" : "hidden"
         }`}
+        style={{ width: "500px", height: "375px" }}
       >
-        <img src={slide.url} alt={`Slide ${slideIndex}`} />
+        <img
+          src={slide.url}
+          alt={`Slide ${slideIndex}`}
+          className="object-cover w-full h-full"
+        />
       </div>
     ));
   };
@@ -125,7 +139,7 @@ const BoxCulvert = () => {
           </tr>
         </thead>
         <tbody>
-          <tr class="border-b border-neutral-600 hover:bg-neutral-100">
+          <tr class="border-b border-neutral-600 hover:bg-neutral-600">
             <td class="px-6 py-4 border-x border-neutral-600">4.4</td>
             <td class="px-6 py-4 border-x border-neutral-600">
               400 x 400 x 1000 mm
@@ -134,7 +148,7 @@ const BoxCulvert = () => {
             <td class="px-6 py-4 border-x border-neutral-600">90 mm</td>
             <td class="px-6 py-4 border-x border-neutral-600">483 kg</td>
           </tr>
-          <tr class="border-b border-neutral-600 hover:bg-neutral-100">
+          <tr class="border-b border-neutral-600 hover:bg-neutral-600">
             <td class="px-6 py-4 border-x border-neutral-600">5.5</td>
             <td class="px-6 py-4 border-x border-neutral-600">
               500 x 500 x 1000 mm
@@ -143,7 +157,7 @@ const BoxCulvert = () => {
             <td class="px-6 py-4 border-x border-neutral-600">100 mm</td>
             <td class="px-6 py-4 border-x border-neutral-600">657 kg</td>
           </tr>
-          <tr class="border-b border-neutral-600 hover:bg-neutral-100">
+          <tr class="border-b border-neutral-600 hover:bg-neutral-600">
             <td class="px-6 py-4 border-x border-neutral-600">6.6</td>
             <td class="px-6 py-4 border-x border-neutral-600">
               600 x 600 x 1000 mm
@@ -152,7 +166,7 @@ const BoxCulvert = () => {
             <td class="px-6 py-4 border-x border-neutral-600">100 mm</td>
             <td class="px-6 py-4 border-x border-neutral-600">773 kg</td>
           </tr>
-          <tr class="border-b border-neutral-600 hover:bg-neutral-100">
+          <tr class="border-b border-neutral-600 hover:bg-neutral-600">
             <td class="px-6 py-4 border-x border-neutral-600">8.8</td>
             <td class="px-6 py-4 border-x border-neutral-600">
               800 x 800 x 1000 mm
@@ -161,7 +175,7 @@ const BoxCulvert = () => {
             <td class="px-6 py-4 border-x border-neutral-600">100 mm</td>
             <td class="px-6 py-4 border-x border-neutral-600">1024 kg</td>
           </tr>
-          <tr class="border-b border-neutral-600 hover:bg-neutral-100">
+          <tr class="border-b border-neutral-600 hover:bg-neutral-600">
             <td class="px-6 py-4 border-x border-neutral-600">10.10</td>
             <td class="px-6 py-4 border-x border-neutral-600">
               1000 x 1000 x 1000 mm
