@@ -60,7 +60,6 @@ export const MainNavbar = () => {
             </DropdownTrigger>
           </NavbarItem>
           <DropdownMenu aria-label="ACME features" className="w-[340px]">
-
             <DropdownItem key="all_project" href="/services">
               All Services
             </DropdownItem>
@@ -91,11 +90,10 @@ export const MainNavbar = () => {
             <DropdownItem key="pagar_brc" href="/services/pagar-brc">
               Pagar BRC
             </DropdownItem>
-
           </DropdownMenu>
         </Dropdown>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="/projects">
             Projects
           </Link>
         </NavbarItem>
