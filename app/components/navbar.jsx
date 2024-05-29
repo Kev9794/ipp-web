@@ -50,7 +50,7 @@ export const MainNavbar = () => {
           <NavbarItem>
             <DropdownTrigger>
               <Button
-                className="p-0 bg-transparent data-[hover=true]:bg-transparent"
+                className="p-0 text-base bg-transparent data-[hover=true]:bg-transparent"
                 endContent={<FaAngleDown />}
                 radius="sm"
                 variant="light"
