@@ -1,5 +1,6 @@
 import { MainNavbar } from "./components/navbar";
 import { Image } from "@nextui-org/react";
+import Link from "next/link";
 import {
   FaHotTubPerson,
   FaLinesLeaning,
@@ -34,36 +35,42 @@ export default function Home() {
       icon: <FaGripLinesVertical className="text-black w-10 h-10" />,
       title: "Pagar Panel Beton",
       description: "Berfungsi untuk sebagai kontruksi pelindung/pembatas lahan",
+      link: "/services/pagar-beton",
     },
     {
       icon: <TbShape3 className="text-black w-10 h-10" />,
       title: "U-Ditch dan Cover U-ditch",
       description:
         "Saluran air beton bertulang yang memiliki bentuk menyerupai huruf 'U' ",
+      link: "/services/u-ditch",
     },
     {
       icon: <TbShape className="text-black w-10 h-10" />,
       title: "Box Culvert",
       description:
         "Beton pracetak berbentuk kotak yang diproduksi dengan menggunakan cetakan besi berguna untuk saluran dalam tanah atau gorong-gorong",
+      link: "/services/box-culvert",
     },
     {
       icon: <FaLinesLeaning className="text-black w-10 h-10" />,
       title: "Kanstin",
       description:
         "Beton pracetak yang digunakan sebagai pembatas jalan/trotoar, bahu jalan, dan lain sebagainya",
+      link: "/services/kanstin",
     },
     {
       icon: <FaRegCircle className="text-black w-10 h-10" />,
       title: "Buis Beton",
       description:
         "Bahan kontruksi beton pracetak yang digunakan sebagai saluran drainase, septic tank dan sumur resapan",
+      link: "/services/buis-beton",
     },
     {
       icon: <GiConcreteBag className="text-black w-10 h-10" />,
       title: "Paving Block",
       description:
         "Produk kontruksi yang biasa digunakan untuk perkerasan jalan, halaman rumah, trotoar dan lainnya",
+      link: "/services/paving-block",
     },
   ];
   const imageRows = [
@@ -138,25 +145,30 @@ export default function Home() {
           <p className="text-medium font-bold text-black pt-6">
             We have various solutions for your constructions
           </p>
-          <a href="" className="text-medium font-bold text-red-600 pt-6">
+          <a
+            href="/services"
+            className="text-medium font-bold text-red-600 pt-6"
+          >
             See More →
           </a>
           <div className="grid grid-cols-3 grid-rows-2 gap-8 pt-6">
             {solutionCardData.map((item) => (
               <div className="relative w-48 h-56 p-4 bg-white group" key={item}>
-                <div className="absolute top-0 left-0 w-full bg-red-600 h-1 group-hover:h-0 transition-all"></div>
-                {item.icon}
-                <p className="text-xl font-normal text-black pt-6">
-                  {item.title}
-                </p>
-                <p className="text-xs font-normal text-black pt-1">
-                  {item.description}
-                </p>
-                <div className="flex">
-                  <div className="absolute bottom-0 left-0 w-[60%] bg-black h-0 group-hover:h-[6px]"></div>
-                  <div className="absolute bottom-0 left-[65%] w-[10%] bg-red-600 h-0 group-hover:h-[6px]"></div>
-                  <div className="absolute bottom-0 left-[80%] w-[20%] bg-black h-0 group-hover:h-[6px]"></div>
-                </div>
+                <Link href={item.link}>
+                  <div className="absolute top-0 left-0 w-full bg-red-600 h-1 group-hover:h-0 transition-all"></div>
+                  {item.icon}
+                  <p className="text-xl font-normal text-black pt-6">
+                    {item.title}
+                  </p>
+                  <p className="text-xs font-normal text-black pt-1">
+                    {item.description}
+                  </p>
+                  <div className="flex">
+                    <div className="absolute bottom-0 left-0 w-[60%] bg-black h-0 group-hover:h-[6px]"></div>
+                    <div className="absolute bottom-0 left-[65%] w-[10%] bg-red-600 h-0 group-hover:h-[6px]"></div>
+                    <div className="absolute bottom-0 left-[80%] w-[20%] bg-black h-0 group-hover:h-[6px]"></div>
+                  </div>
+                </Link>
               </div>
             ))}
           </div>
