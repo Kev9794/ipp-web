@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa6";
 
-export default function AreaPerumahan() {
+export default function KawasanIndustri() {
   const slides = [
     {
       url: "/image/projects/kawasan_industri.jpg",

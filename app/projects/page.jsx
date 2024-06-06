@@ -106,8 +106,8 @@ export default function OurProjects() {
         </div>
         <div className="gap-4 grid grid-cols-2 sm:grid-cols-4">
           {list.map((item, index) => (
-            <Link href={item.link}>
-              <Card shadow="sm" key={index} isPressable className="w-full">
+            <Link href={item.link} key={item}>
+              <Card shadow="sm" key={item} isPressable className="w-full">
                 <CardBody className="overflow-visible p-0">
                   <Image
                     shadow="sm"
