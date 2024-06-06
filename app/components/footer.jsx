@@ -28,13 +28,13 @@ export const MainFooter = () => {
               <h4 className="text-heading4">Learn More</h4>
               <ul className="flex flex-col gap-2 text-paragraph6Res">
                 <li>
-                  <Link href={"#"}>About Us</Link>
+                  <Link href={"/about-us"}>About Us</Link>
                 </li>
                 <li>
-                  <Link href={"#"}>Our Products</Link>
+                  <Link href={"/services"}>Our Products</Link>
                 </li>
                 <li>
-                  <Link href={"#"}>Contact Us</Link>
+                  <Link href={"/contact-us"}>Contact Us</Link>
                 </li>
               </ul>
             </div>
