@@ -8,13 +8,13 @@ export default function AreaPerkantoran() {
       url: "/image/projects/area_perkantoran.jpg",
     },
     {
-      url: "/image/projects/area_perkantoran2.JPG",
+      url: "/image/projects/area_perkantoran2.jpg",
     },
     {
-      url: "/image/projects/area_perkantoran3.JPG",
+      url: "/image/projects/area_perkantoran3.jpg",
     },
     {
-      url: "/image/projects/area_perkantoran4.JPG",
+      url: "/image/projects/area_perkantoran4.jpg",
     },
   ];
 

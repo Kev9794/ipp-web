@@ -8,19 +8,19 @@ export default function ProjectTangerang() {
       url: "/image/projects/project_tangerang.jpg",
     },
     {
-      url: "/image/projects/project_tangerang2.JPG",
+      url: "/image/projects/project_tangerang2.jpg",
     },
     {
-      url: "/image/projects/project_tangerang3.JPG",
+      url: "/image/projects/project_tangerang3.jpg",
     },
     {
-      url: "/image/projects/project_tangerang4.JPG",
+      url: "/image/projects/project_tangerang4.jpg",
     },
     {
-      url: "/image/projects/project_tangerang5.JPG",
+      url: "/image/projects/project_tangerang5.jpg",
     },
     {
-      url: "/image/projects/project_tangerang6.JPG",
+      url: "/image/projects/project_tangerang6.jpg",
     },
   ];
 

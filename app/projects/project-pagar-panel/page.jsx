@@ -5,100 +5,100 @@ import { FaAngleLeft, FaAngleRight } from "react-icons/fa6";
 export default function ProjectPagarPanel() {
   const slides = [
     {
-      url: "/image/projects/pagar.JPG",
+      url: "/image/projects/pagar.jpg",
     },
     {
-      url: "/image/projects/pagar2.JPG",
+      url: "/image/projects/pagar2.jpg",
     },
     {
-      url: "/image/projects/pagar3.JPG",
+      url: "/image/projects/pagar3.jpg",
     },
     {
-      url: "/image/projects/pagar4.JPG",
+      url: "/image/projects/pagar4.jpg",
     },
     {
-      url: "/image/projects/pagar5.JPG",
+      url: "/image/projects/pagar5.jpg",
     },
     {
-      url: "/image/projects/pagar6.JPG",
+      url: "/image/projects/pagar6.jpg",
     },
     {
-      url: "/image/projects/pagar7.JPG",
+      url: "/image/projects/pagar7.jpg",
     },
     {
-      url: "/image/projects/pagar8.JPG",
+      url: "/image/projects/pagar8.jpg",
     },
     {
-      url: "/image/projects/pagar9.JPG",
+      url: "/image/projects/pagar9.jpg",
     },
     {
-      url: "/image/projects/pagar10.JPG",
+      url: "/image/projects/pagar10.jpg",
     },
     {
-      url: "/image/projects/pagar11.JPG",
+      url: "/image/projects/pagar11.jpg",
     },
     {
-      url: "/image/projects/pagar12.JPG",
+      url: "/image/projects/pagar12.jpg",
     },
     {
-      url: "/image/projects/pagar13.JPG",
+      url: "/image/projects/pagar13.jpg",
     },
     {
-      url: "/image/projects/pagar14.JPG",
+      url: "/image/projects/pagar14.jpg",
     },
     {
-      url: "/image/projects/pagar15.JPG",
+      url: "/image/projects/pagar15.jpg",
     },
     {
-      url: "/image/projects/pagar16.JPG",
+      url: "/image/projects/pagar16.jpg",
     },
     {
-      url: "/image/projects/pagar17.JPG",
+      url: "/image/projects/pagar17.jpg",
     },
     {
-      url: "/image/projects/pagar18.JPG",
+      url: "/image/projects/pagar18.jpg",
     },
     {
-      url: "/image/projects/pagar19.JPG",
+      url: "/image/projects/pagar19.jpg",
     },
     {
-      url: "/image/projects/pagar20.JPG",
+      url: "/image/projects/pagar20.jpg",
     },
     {
-      url: "/image/projects/pagar21.JPG",
+      url: "/image/projects/pagar21.jpg",
     },
     {
-      url: "/image/projects/pagar22.JPG",
+      url: "/image/projects/pagar22.jpg",
     },
     {
-      url: "/image/projects/pagar23.JPG",
+      url: "/image/projects/pagar23.jpg",
     },
     {
-      url: "/image/projects/pagar24.JPG",
+      url: "/image/projects/pagar24.jpg",
     },
     {
-      url: "/image/projects/pagar25.JPG",
+      url: "/image/projects/pagar25.jpg",
     },
     {
-      url: "/image/projects/pagar26.JPG",
+      url: "/image/projects/pagar26.jpg",
     },
     {
-      url: "/image/projects/pagar27.JPG",
+      url: "/image/projects/pagar27.jpg",
     },
     {
-      url: "/image/projects/pagar28.JPG",
+      url: "/image/projects/pagar28.jpg",
     },
     {
-      url: "/image/projects/pagar29.JPG",
+      url: "/image/projects/pagar29.jpg",
     },
     {
-      url: "/image/projects/pagar30.JPG",
+      url: "/image/projects/pagar30.jpg",
     },
     {
-      url: "/image/projects/pagar31.JPG",
+      url: "/image/projects/pagar31.jpg",
     },
     {
-      url: "/image/projects/pagar32.JPG",
+      url: "/image/projects/pagar32.jpg",
     },
   ];
 

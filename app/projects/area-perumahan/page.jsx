@@ -8,10 +8,10 @@ export default function AreaPerumahan() {
       url: "/image/projects/area_perumahan.jpg",
     },
     {
-      url: "/image/projects/area_perumahan2.JPG",
+      url: "/image/projects/area_perumahan2.jpg",
     },
     {
-      url: "/image/projects/area_perumahan3.JPG",
+      url: "/image/projects/area_perumahan3.jpg",
     },
   ];
 

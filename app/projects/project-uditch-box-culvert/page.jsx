@@ -8,40 +8,40 @@ export default function UditchBoxCulvert() {
       url: "/image/projects/uditch.jpg",
     },
     {
-      url: "/image/projects/uditch2.JPG",
+      url: "/image/projects/uditch2.jpg",
     },
     {
-      url: "/image/projects/uditch3.JPG",
+      url: "/image/projects/uditch3.jpg",
     },
     {
-      url: "/image/projects/uditch4.JPG",
+      url: "/image/projects/uditch4.jpg",
     },
     {
-      url: "/image/projects/uditch5.JPG",
+      url: "/image/projects/uditch5.jpg",
     },
     {
-      url: "/image/projects/uditch6.JPG",
+      url: "/image/projects/uditch6.jpg",
     },
     {
-      url: "/image/projects/uditch7.JPG",
+      url: "/image/projects/uditch7.jpg",
     },
     {
-      url: "/image/projects/uditch8.JPG",
+      url: "/image/projects/uditch8.jpg",
     },
     {
-      url: "/image/projects/uditch9.JPG",
+      url: "/image/projects/uditch9.jpg",
     },
     {
-      url: "/image/projects/uditch10.JPG",
+      url: "/image/projects/uditch10.jpg",
     },
     {
-      url: "/image/projects/uditch11.JPG",
+      url: "/image/projects/uditch11.jpg",
     },
     {
-      url: "/image/projects/uditch12.JPG",
+      url: "/image/projects/uditch12.jpg",
     },
     {
-      url: "/image/projects/uditch13.JPG",
+      url: "/image/projects/uditch13.jpg",
     },
   ];
 
