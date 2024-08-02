@@ -85,19 +85,31 @@ export default function OurService() {
       image: "pagar-beton-1.jpg",
       redirectUrl: "/services/pagar-beton",
     },
-    { title: "U-Ditch", image: "uditch-1.jpg", redirectUrl: "/u-ditch" },
+    {
+      title: "U-Ditch",
+      image: "uditch-1.jpg",
+      redirectUrl: "/services/u-ditch",
+    },
     {
       title: "Box Culvert",
       image: "box-culvert-1.jpg",
       redirectUrl: "/services/box-culvert",
     },
-    { title: "Kanstin", image: "kanstin-5.jpeg", redirectUrl: "/kanstin" },
+    {
+      title: "Kanstin",
+      image: "kanstin-5.jpeg",
+      redirectUrl: "/services/kanstin",
+    },
     {
       title: "Buis Beton",
       image: "buis-beton-1.jpg",
       redirectUrl: "/services/buis-beton",
     },
-    { title: "Pipa RCP", image: "pipa-rcp-1.jpg", redirectUrl: "/pipa-rcp" },
+    {
+      title: "Pipa RCP",
+      image: "pipa-rcp-1.jpg",
+      redirectUrl: "/services/pipa-rcp",
+    },
     {
       title: "Paving Block",
       image: "paving-block-1.jpg",
