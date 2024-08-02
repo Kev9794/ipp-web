@@ -43,8 +43,8 @@ export const MainFooter = () => {
               <ul className="flex flex-col items-center gap-2 md:items-start text-paragraph6Res">
                 <li className="flex items-center gap-2">
                   <FaBuilding />
-                  Jl. Perkutut, Bojong Nangka, Kelapa Dua, Tangerang – Banten
-                  15810
+                  Jl. Perkutut, Bojong Nangka, Kelapa Dua,
+                  <br className="lg:hidden" /> Tangerang – Banten 15810
                 </li>
                 <li className="flex items-center gap-2">
                   <IoMail />
