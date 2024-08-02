@@ -132,7 +132,9 @@ export default function ContactUs() {
             </p>
           </div>
 
-          <p className="text-xl md:text-2xl text-white">Let's Work Together!</p>
+          <p className="text-xl md:text-2xl text-white">
+            Let&apos;s Work Together!
+          </p>
         </div>
         <div className="flex flex-col md:flex-row">
           <div className="w-full md:w-1/2 flex flex-col gap-y-7">
