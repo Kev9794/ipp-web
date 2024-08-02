@@ -83,32 +83,36 @@ export default function OurService() {
     {
       title: "Pagar Panel Beton",
       image: "pagar-beton-1.jpg",
-      redirectUrl: "/pagar-beton",
+      redirectUrl: "/services/pagar-beton",
     },
     { title: "U-Ditch", image: "uditch-1.jpg", redirectUrl: "/u-ditch" },
     {
       title: "Box Culvert",
       image: "box-culvert-1.jpg",
-      redirectUrl: "/box-culvert",
+      redirectUrl: "/services/box-culvert",
     },
     { title: "Kanstin", image: "kanstin-5.jpeg", redirectUrl: "/kanstin" },
     {
       title: "Buis Beton",
       image: "buis-beton-1.jpg",
-      redirectUrl: "/buis-beton",
+      redirectUrl: "/services/buis-beton",
     },
     { title: "Pipa RCP", image: "pipa-rcp-1.jpg", redirectUrl: "/pipa-rcp" },
     {
       title: "Paving Block",
       image: "paving-block-1.jpg",
-      redirectUrl: "/paving-block",
+      redirectUrl: "/services/paving-block",
     },
     {
       title: "Pagar Kawat Berduri",
       image: "pagar-kawat-1.jpg",
-      redirectUrl: "/pagar-kawat",
+      redirectUrl: "/services/pagar-kawat",
     },
-    { title: "Pagar BRC", image: "pagar-brc-1.jpg", redirectUrl: "/pagar-brc" },
+    {
+      title: "Pagar BRC",
+      image: "pagar-brc-1.jpg",
+      redirectUrl: "/services/pagar-brc",
+    },
   ];
 
   return (
