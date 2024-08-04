@@ -285,12 +285,12 @@ export default function Home() {
                   waktu.
                 </p>
               </div>
-              <div className="w-80 lg:w-auto mt-6 lg:mt-0">
+              <div className="w-80 lg:w-auto lg:h-max mt-6 lg:mt-0">
                 <Image
-                  src="image/worker.png"
+                  src="image/home2.png"
                   width={650}
                   lgwidth={650}
-                  radius="lg"
+                  radius="none"
                 />
               </div>
             </div>
