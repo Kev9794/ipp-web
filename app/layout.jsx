@@ -71,6 +71,21 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
+        {/* <!-- Google Analytics (gtag.js) --> */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=AW-16661703442"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-16661703442');
+            `,
+          }}
+        />
         {/* <!-- Google Tag Manager --> */}
         <script
           dangerouslySetInnerHTML={{
