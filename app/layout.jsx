@@ -33,6 +33,16 @@ export default function RootLayout({ children }) {
         />
       </Head>
       <body className={inter.className}>
+        {/* <!-- Google Tag Manager (noscript) --> */}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-MDVJF8Q6"
+            height="0"
+            width="0"
+            style="display:none;visibility:hidden"
+          ></iframe>
+        </noscript>
+        {/* <!-- End Google Tag Manager (noscript) --> */}
         <NextUIProvider>
           <main className="dark text-foreground bg-background">
             <MainNavbar />
