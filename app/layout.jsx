@@ -91,7 +91,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
+      <head>
         {/* <!-- Google Analytics (gtag.js) --> */}
         <script
           async
@@ -108,7 +108,7 @@ export default function RootLayout({ children }) {
           }}
         />
         {/* <!-- End Google Analytics --> */}
-      </Head>
+      </head>
       <body className={inter.className}>
         <NextUIProvider>
           <main className="dark text-foreground bg-background">
