@@ -117,11 +117,14 @@ import {
   FaLinkedin,
   FaTiktok,
 } from "react-icons/fa";
+import { MdFactory } from "react-icons/md";
 import { IoMdMailOpen } from "react-icons/io";
 import { IoCall } from "react-icons/io5";
 import Link from "next/link";
+import PdfContact from "../components/PdfContact";
 
 export default function ContactUs() {
+  const fileUrl = "/contactPerson.pdf";
   return (
     <>
       <div className="flex flex-col p-4 md:p-10 lg:p-14 bg-zinc-800">
@@ -141,6 +144,26 @@ export default function ContactUs() {
             <div className="flex pb-8 gap-x-2">
               <p className="text-2xl md:text-3xl font-extrabold text-white">
                 PT <span className="text-red-600">IRKON PANELINDO PRODUK</span>
+              </p>
+            </div>
+            <div className="flex items-center gap-4">
+              <MdFactory className="text-3xl text-white" />
+              <p className="text-lg text-white">
+                PT. IRKON PANELINDO PRODUK - Plant U-ditch & Box Culvert
+                <br />
+                <span className="text-red-500">
+                  <Link href={"https://maps.app.goo.gl/ZJJJeuhFAPrbwVTa9"}>
+                    Open in Google Maps
+                  </Link>
+                </span>
+              </p>
+            </div>
+            <div className="flex items-center gap-4">
+              <IoCall className="text-3xl text-white" />
+              <p className="text-lg text-white">
+                Factory Number
+                <br />
+                (021) 546 1180
               </p>
             </div>
             <div className="flex items-center gap-4">
@@ -211,13 +234,14 @@ export default function ContactUs() {
               Find <span className="text-red-600">Us</span>
             </p>
             {/* <MapComponent apiKey={googleMapsApiKey} /> */}
-            <div className="flex">
+            <div className="flex flex-col gap-y-4">
               <iframe
                 className="w-full h-64 md:h-80 lg:h-96"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.085688125347!2d106.60180978433627!3d-6.252440045049562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fd9af88ba04d%3A0x2d27a090eaba59bf!2sPT.IRKON%20PANELINDO%20PRODUK!5e0!3m2!1sid!2sid!4v1714309718147!5m2!1sid!2sid"
                 allowFullScreen=""
                 loading="lazy"
               ></iframe>
+              <PdfContact fileUrl={fileUrl} />
             </div>
           </div>
         </div>
